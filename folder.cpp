@@ -2,16 +2,18 @@
 #include <iostream>
 using namespace std;
 // write the main function
-int main(){
-// declaring the variables
-int a,b;
-// assinging the values
-a=4 ;
-b=2 ;
-cout<< "sum" << a+b <<endl;
-cout<< "sub" << a-b <<endl;
-cout<< "multiply" << a*b <<endl;
-count << "division" << a/b <<endl;
-cout << "modulus" << a%b <<endl;
+int main() {
+// declaration of basic data types
+int a = 2;
+float b = 4.64;
+double doublevar = 5.44;
+char c= 'z';
+bool boolvar = 4;
+// Displaying the sizes of data types
+cout<< "size of int"<< sizeof(a)<< endl;
+cout<<"size of float"<< sizeof(float)<<endl;
+cout<<"size of doublevar"<< sizeof(double)<<endl;
+cout<<"size of char"<<sizeof(char)<<endl;
+cout<<"size of boolvar"<<sizeof(bool)<<endl;
 }
-           
+
